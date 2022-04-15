@@ -26,3 +26,6 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_m12
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_m12_defconfig
+
+# Properties
+TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
