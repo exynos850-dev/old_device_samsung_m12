@@ -35,8 +35,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 PRODUCT_NAME := lineage_m12
 PRODUCT_DEVICE := m12
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-M127F
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_MODEL := Galaxy M12
+PRODUCT_MANUFACTURER := Samsung
 PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
