@@ -15,7 +15,35 @@
     <item name="modem.controller.sleep">0</item>
     <item name="modem.controller.idle">83</item>
     <item name="modem.controller.rx">92</item>
+    <array name="modem.controller.tx">
+        <value>132</value>
+        <value>157</value>
+        <value>214</value>
+        <value>331</value>
+        <value>398</value>
+    </array>
     <item name="modem.controller.voltage">3700</item>
+    <item name="wifi.controller.idle">1</item>
+    <item name="wifi.controller.rx">38</item>
+    <item name="wifi.controller.tx">345</item>
+    <array name="wifi.controller.tx_levels">
+        <value>0</value>
+    </array>
+    <item name="wifi.controller.voltage">3600</item>
+    <array name="wifi.batchedscan">
+        <value>.0002</value>
+        <value>.002</value>
+        <value>.02</value>
+        <value>.2</value>
+        <value>2</value>
+    </array>
+    <item name="gps.on">49</item>
+    <item name="bluetooth.controller.idle">1</item>
+    <item name="bluetooth.controller.rx">15</item>
+    <item name="bluetooth.controller.tx">55</item>
+    <item name="bluetooth.controller.voltage">3600</item>
+    <item name="cpu.suspend">3.37</item>
+    <item name="cpu.idle">15.2</item>
     <array name="cpu.clusters.cores">
         <value>4</value>
         <value>4</value>
@@ -76,27 +104,6 @@
         <value>76.8</value>
         <value>95.7</value>
     </array>
-    <item name="cpu.suspend">3.37</item>
-    <item name="cpu.idle">15.2</item>
-    <item name="battery.capacity">4900</item>
-    <item name="battery.typical.capacity">5000</item>
-    <item name="wifi.controller.idle">1</item>
-    <item name="wifi.controller.rx">38</item>
-    <item name="wifi.controller.tx">345</item>
-    <array name="wifi.controller.tx_levels">
-        <value>0</value>
-    </array>
-    <item name="wifi.controller.voltage">3600</item>
-    <array name="wifi.batchedscan">
-        <value>.0002</value>
-        <value>.002</value>
-        <value>.02</value>
-        <value>.2</value>
-        <value>2</value>
-    </array>
-    <item name="bluetooth.controller.idle">1</item>
-    <item name="bluetooth.controller.rx">15</item>
-    <item name="bluetooth.controller.tx">55</item>
     <array name="gpu.active">
         <value>42.9</value>
         <value>50.1</value>
@@ -113,4 +120,6 @@
         <value>865000</value>
         <value>1001000</value>
     </array>
+    <item name="battery.capacity">4900</item>
+    <item name="battery.typical.capacity">5000</item>
 </device>
