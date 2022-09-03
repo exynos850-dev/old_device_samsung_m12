@@ -50,7 +50,7 @@ void set_ro_build_prop(const string &prop, const string &value, bool product = t
 void set_build_fingerprint(string device, string name, string build) {
     string build_fingerprint;
 
-    build_fingerprint = "samsung/" + name + "/" + device + ":11/RP1A.200720.012/" + build + ":user/release-keys";
+    build_fingerprint = "samsung/" + name + "/" + device + ":12/SP1A.210812.016/" + build + ":user/release-keys";
     set_ro_build_prop("fingerprint", build_fingerprint, false);
     property_override("ro.bootimage.build.fingerprint", build_fingerprint);
 
@@ -69,11 +69,11 @@ void vendor_load_properties() {
     }
 
     if (model == "SM-M127F") {
-        set_build_fingerprint("m12", "m12nsxx", "M127FXXS3AVF3");
+        set_build_fingerprint("m12", "m12nsxx", "M127FXXU3BVG2");
     } else if (model == "SM-M127G") {
-        set_build_fingerprint("m12", "m12dd", "M127GDDS3AVF1");
+        set_build_fingerprint("m12", "m12dd", "M127GXXU3BVG1");
     } else if (model == "SM-F127G") {
-        set_build_fingerprint("f12", "f12dd", "F127GDDS3AVF1");
+        set_build_fingerprint("f12", "f12dd", "F127GXXU3BVG2");
     } else {
         LOG(ERROR) << __func__ << ": Coudn't indentify model!";
     }
