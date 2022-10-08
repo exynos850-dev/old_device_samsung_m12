@@ -21,9 +21,6 @@ TARGET_SCREEN_WIDTH := 720
 # Fingerprint
 TARGET_SEC_FP_HAS_FINGERPRINT_GESTURES := true
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_m12
-
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_m12_defconfig
 
