@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_m12.mk
+    $(LOCAL_DIR)/arrow_m12.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_m12-eng \
-    lineage_m12-user \
-    lineage_m12-userdebug
+    arrow_m12-eng \
+    arrow_m12-user \
+    arrow_m12-userdebug
